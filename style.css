@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.container{
+    width: 1440px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul .left{
+    float: left;
+    margin-left: 20px;
+}
+.left{
+    margin-right: 365px;
+}
+
+.icons a img{
+    width: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left:10px;
+}
+
+li a{
+    font-family: roboto;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.baner{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: roboto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.seccond-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccond-div{
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 35px;
+    font-family: roboto;
+}
+
+.gallery{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    position: absolute;
+}
+
+.gallery-one{
+    padding-left: 10px;
+}
+
+.gallery-two{
+    padding-left: 10px;
+}
