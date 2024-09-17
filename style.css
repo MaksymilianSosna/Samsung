@@ -3,9 +3,17 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
     height: auto;
+    width: auto;
+ 
+}
+
+p{
+    font-family: roboto;
+}
+
+h1{
+    font-family: roboto;
 }
 
 .container{
@@ -82,22 +90,72 @@ button{
     margin-left: 20px;
     margin-right: 35px;
     font-family: roboto;
+    
 }
 
-.gallery{
-    width: 1440px;
+.gallery-container{
     display: flex;
     justify-content: center;
+}
+
+.offer-left{
+margin: 0px 10px 0px;  
+}
+
+.offer-right{
+    margin: 0px 10px 0px; 
+    padding: 10px 0px 0px;
+    width: 680px;
+    height: auto;
+    margin-top: -10px;
+    
+}
+
+.offer-left img{
+    border-radius: 25px;
+    width: 675px;
+}
+.offer-right img{
+    border-radius: 25px;
+    width: 335px;
+    height: 335px;
+
+}
+
+.text-one{
+    text-align: center;
+    margin-top: -125px;
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 700;
+}
+
+.text-one-one{
+    text-align: center;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.button-bar{
+    text-align: center;
+}
+
+.button-bar button{
+    background: none;
+    margin: 10px;
+}
+
+.main-box{
+    background-image: url(zfold6.jpg);
+    width: 1440px;
+    height: 810px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10px;
-    position: absolute;
+    border-radius: 25px;
 }
 
-.gallery-one{
-    padding-left: 10px;
+a{
+    color: black;
 }
 
-.gallery-two{
-    padding-left: 10px;
-}
