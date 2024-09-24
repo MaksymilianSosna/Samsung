@@ -1,5 +1,6 @@
 *{
     text-decoration: none;
+    padding: 0;
 }
 
 body{
@@ -72,6 +73,7 @@ h1{
     margin-right: auto;
     text-align: center;
     font-weight: 600;
+    width: 1440px;
 }
 
 .seccond-container{
@@ -82,6 +84,9 @@ h1{
 .seccond-div{
     justify-content: center;
     display: flex;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button{
@@ -159,3 +164,152 @@ a{
     color: black;
 }
 
+.live{
+    background-image: url(tv.jpg);
+    width: 1440px;
+    height: 810px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.odkurzacz{
+    background-image: url(odk.webp);
+    width: 1440px;
+    height: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-one{
+    background-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 440px;
+    border-radius: 15px;
+}
+
+.list-two{
+    background-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 440px;
+    border-radius: 15px;
+}
+
+.list-three{
+    background-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 440px;
+    border-radius: 15px;
+}
+
+.list-four{
+    background-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 440px;
+    border-radius: 15px;
+}
+
+.text{
+    text-align: center;
+    font-weight: 600;
+}
+
+.rata{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 12px;
+    color: rgb(0, 132, 209);
+    text-decoration: underline rgb(0, 132, 209);
+}
+
+.Kup-teraz{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 200px;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.Kup-teraz a{
+    font-weight: 600;
+}
+
+.do{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.home-zdj{
+    border-radius: 20px;
+}
+
+.right{
+    float: right;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.dowiedz{
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 40px;
+}
+
+.search-bar{
+    width: 500px;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.button-seccond{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.but-one{
+    width: 120px;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.foot{
+    width: 1440px;
+    height: 180px;
+    background-color: rgb(240, 240, 240);
+    margin: 40px;
+
+}
+
+.text-two{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px
+}
+
+.foot-two{
+    display: flex;
+    
+}
